@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.google.android.maps.MapView
+        		 android:id="@+id/mapview"
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:clickable="true"
+                 android:apiKey="01tqg6vSnVnE5F3mbyGTjUH5rdxbKUu5dn-t5Rg"
+                 />
+    <Button android:id="@+id/screenshotButton"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Take Screenshot"
+        	/>
+
+</RelativeLayout>

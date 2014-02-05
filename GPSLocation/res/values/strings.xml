@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">GPSLocation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_current_location">CurrentLocation</string>
+    <string name="title_activity_server_test">AndroidConduit</string>
+    <string name="server_test_default_text">ServerText Activity loaded.</string>
+    <string name="server_test_current_location_indicator">Current Location</string>
+
+</resources>

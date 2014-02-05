@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="LargeTitle">24dp</dimen>
+    <dimen name="RightPadding">2dp</dimen>
+    <dimen name="CenterSpace">4dp</dimen>
+</resources>

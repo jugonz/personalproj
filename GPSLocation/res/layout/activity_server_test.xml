@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/serverActivityTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:paddingBottom="35dp"
+        android:text="@string/title_activity_server_test"
+        android:textSize="@dimen/LargeTitle" />
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:paddingTop="35dp"
+        android:text="@string/server_test_default_text" />
+
+    <com.google.android.maps.MapView
+        android:id="@+id/currentLocationView"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statusTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/serverActivityTitle"
+        android:apiKey="01tqg6vSnVnE5F3mbyGTjUH5rdxbKUu5dn-t5Rg"
+        android:clickable="true" />
+    
+    <View
+        android:id="@+id/spacer"
+        android:layout_width="15dp"
+        android:layout_height="0dp"
+        android:layout_toRightOf="@+id/currentLocationView"
+        android:layout_centerHorizontal ="true" />
+    
+    <ListView
+        android:id="@+id/recentCommands"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statusTextView"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/serverActivityTitle"
+        android:layout_toRightOf="@id/spacer"
+        android:paddingRight="@dimen/RightPadding" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/currentLocationView"
+        android:layout_alignTop="@+id/statusTextView"
+        android:layout_marginRight="33dp"
+        android:text="@string/server_test_current_location_indicator"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
