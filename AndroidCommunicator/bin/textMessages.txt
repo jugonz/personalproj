@@ -1,0 +1,6 @@
+"Back soon" :: "I'll be back soon."
+"Back in an hr" :: "Be back in an hour!"
+"See you" :: "See you soon!"
+"You there?" :: "Are you there?"
+"Need help" :: "I need help!"
+"Send Location" :: "Here is my location:"
